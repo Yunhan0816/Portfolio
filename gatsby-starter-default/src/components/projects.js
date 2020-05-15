@@ -11,8 +11,7 @@ const Projects = () => (
         :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::{" "}
       </p>
       <p>
-        01/2020 - Present | <spacer></spacer>
-        <a id="techstack">#VueJS</a>
+        01/2020 - Present | <a id="techstack">#VueJS</a>
         <a id="techstack">#NodeJS</a>
         <a id="techstack">#Firebase Database</a>
         <a id="techstack">#GoogleMap API</a>
@@ -53,10 +52,9 @@ const Projects = () => (
         :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::{" "}
       </p>
       <p>
-        10/2019 | <spacer></spacer>
-        <a id="about">#VueJS</a>
-        <a id="about">#NodeJS</a>
-        <a id="about">#Firebase Database</a>
+        10/2019 | <a id="techstack">#VueJS</a>
+        <a id="techstack">#NodeJS</a>
+        <a id="techstack">#Firebase Database</a>
       </p>
     </div>
   </div>

@@ -4,6 +4,7 @@ import AboutMe from "../components/aboutme"
 import Layout from "../components/layout"
 import NavBar from "../components/navbar"
 import Projects from "../components/projects"
+import AboutMePic from "../components/aboutmepic"
 // import Image from "../components/image"
 import SEO from "../components/seo"
 
@@ -13,8 +14,10 @@ class IndexPage extends React.Component {
     let title = (
       <>
         {" "}
-        <a id="myname"> Hannah Huang</a>{" "}
-        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||{" "}
+        <p>
+          <a id="myname"> Hannah Huang</a>{" "}
+          |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||{" "}
+        </p>
       </>
     )
 
@@ -27,7 +30,14 @@ class IndexPage extends React.Component {
         <h1>{title}</h1>
         <NavBar />
         <br></br>
-        <AboutMe />
+        <div class="row">
+          <div class="col-9">
+            <AboutMe />{" "}
+          </div>
+          <div class="col-3">
+            <AboutMePic />
+          </div>
+        </div>
         <br></br>
         <Projects />
         <Link to="/page-2/">Go to page 2</Link>
