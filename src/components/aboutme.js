@@ -2,14 +2,14 @@ import React from "react"
 
 const AboutMe = () => (
   <div id="aboutMe">
-    <h1 style={{ fontSize: "30px" }}>#About Me</h1>
+    <h1 style={{ fontSize: "30px", fontWeight: "bold" }}># About Me</h1>
     <p id="toGrey">
       Hello! I'm Hannah, a 4th year Computer Science student studying at Boston
       University (graduating May 2021).{" "}
     </p>
     <p id="toGrey">
-      My passions include <a id="toBold">Software Development</a>,{" "}
-      <a id="toBold">organizing hackathons</a>, and indie rock.{" "}
+      My passions include Software Development, organizing hackathons, and indie
+      rock.{" "}
     </p>
     <p id="toGrey">
       I am a <a id="toBold">Developer Summer Analyst</a> at{" "}
@@ -18,7 +18,7 @@ const AboutMe = () => (
     <p id="toGrey">
       I am the current <a id="toBold">Director of Technology</a> at{" "}
       <a id="redirect" href="https://boston.techtogether.io/index.html">
-        TechTogether Boston,
+        TechTogether Boston
       </a>
       , Boston's largest female, femme, and non-binary hackathon that empowers
       women and non-binary individuals in technology to achieve.{" "}
