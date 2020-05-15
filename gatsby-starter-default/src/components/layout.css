@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Overpass&family=Overpass+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass&family=Overpass+Mono:wght@400;700&display=swap");
 * {
   font-family: "Overpass Mono", sans-serif;
   background-color: #222028;
@@ -7,15 +7,83 @@
 }
 /* body {
 } */
+h3 {
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+}
+#toGrey {
+  color: #a2a3a2;
+}
+
+#redirect {
+  font-weight: bold;
+  color: #81c5fd;
+  text-decoration: none;
+  /* letter-spacing: 0.15em; */
+
+  display: inline-block;
+  position: relative;
+}
+#redirect:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #81c5fd;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+#redirect:hover:after {
+  width: 100%;
+  left: 0;
+}
 #nav {
-  margin-left: 60%;
+  margin-left: 50%;
 }
 a {
+  text-decoration: none;
+}
+
+#toBold {
+  font-weight: bold;
+}
+#techstack {
+  /* color: #919993; */
+  margin-right: 30px;
+}
+#about,
+#works,
+#professional,
+#contactme {
+  color: #81c5fd;
+  padding-right: 5%;
+}
+#about:hover,
+#works:hover,
+#professional:hover,
+#contactme:hover {
   color: #ffffff;
+}
+#number {
+  color: #d4feda;
+}
+#aboutmepic {
+  box-sizing: border-box;
+  width: 35%;
+  height: 100%;
+  border: 8px solid;
+  padding-left: 2%;
+  padding-right: 2%;
+  border: 8px solid #d4feda;
+  border: 8px solid #d4feda;
 }
 #aboutMe {
   box-sizing: border-box;
-  width: 100%;
+  width: 65%;
   height: 100%;
   padding-left: 2%;
   padding-right: 2%;

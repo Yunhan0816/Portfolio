@@ -1,7 +1,9 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
-
+import AboutMe from "../components/aboutme"
 import Layout from "../components/layout"
+import NavBar from "../components/navbar"
+import Projects from "../components/projects"
 // import Image from "../components/image"
 import SEO from "../components/seo"
 
@@ -11,9 +13,8 @@ class IndexPage extends React.Component {
     let title = (
       <>
         {" "}
-        |||||||||||||||||||||||||||||||||||||||||||||{" "}
         <a id="myname"> Hannah Huang</a>{" "}
-        |||||||||||||||||||||||||||||||||||||||||||||{" "}
+        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||{" "}
       </>
     )
 
@@ -22,27 +23,13 @@ class IndexPage extends React.Component {
     }
     return (
       <Layout>
-        <SEO title="Home" />
+        <SEO title="Hannah Huang" />
         <h1>{title}</h1>
-        <div id="nav">
-          <a href="#aboutMe">About Me</a> {""} <a href="#project">Projects</a>{" "}
-          {""}
-          <a href="experience">Experience</a> {""}
-          <a href="contact">Contact Me</a>
-        </div>
+        <NavBar />
         <br></br>
-
-        <div id="aboutMe">
-          <h2 style={{ fontSize: "30px" }}>#About Me</h2>
-          <p>I am xyz, I did xyz</p>
-        </div>
+        <AboutMe />
         <br></br>
-        <div id="project">
-          {" "}
-          <h2 style={{ fontSize: "30px" }}>#Projects</h2>
-        </div>
-        <p>Welcome to your new Gatsby site.</p>
-        <p>Now go build something great.</p>
+        <Projects />
         <Link to="/page-2/">Go to page 2</Link>
       </Layout>
     )
