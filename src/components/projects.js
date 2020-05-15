@@ -15,7 +15,7 @@ const Projects = () => (
           </a>
         </div>
         <div class="col-2">
-          <a id="redirect" href="">
+          <a id="redirect" href="#">
             Poster
           </a>
         </div>

@@ -22,7 +22,8 @@ h3 {
   color: #a2a3a2;
 }
 
-#redirect {
+#redirect,
+.navHref {
   font-weight: bold;
   color: #81c5fd;
   text-decoration: none;
@@ -47,7 +48,14 @@ h3 {
   width: 100%;
   left: 0;
 }
-#nav {
+Link,
+Link:hover {
+  box-shadow: none;
+  color: #007acc;
+  text-decoration: none;
+}
+
+.nav {
   margin-left: 50%;
 }
 a {
@@ -62,23 +70,15 @@ a {
   /* color: #919993; */
   margin-right: 30px;
 }
-#about,
-#works,
-#professional,
-#contactme {
+.navHref {
   color: #81c5fd;
-  padding-right: 5%;
-}
-#about:hover,
-#works:hover,
-#professional:hover,
-#contactme:hover {
-  color: #ffffff;
-}
-#number {
-  color: #d4feda;
+  padding: 2%;
+  text-decoration: none;
 }
 
+span {
+  text-decoration: none;
+}
 #aboutMe {
   box-sizing: border-box;
   width: 100%;

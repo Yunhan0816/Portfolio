@@ -1,20 +1,19 @@
 import React from "react"
-
+import { Link } from "gatsby"
 const NavBar = () => (
-  <div id="nav">
-    <a href="#aboutMe" id="about">
-      {" "}
-      <a id="number">00.</a> About Me
-    </a>{" "}
-    <a href="#project" id="works">
-      <a id="number">01.</a> Projects{" "}
-    </a>{" "}
-    <a href="experience" id="professional">
-      <a id="number">02.</a> Experience{" "}
-    </a>{" "}
-    <a href="contact" id="contactme">
-      <a id="number">03.</a> Contact{" "}
-    </a>
+  <div class="nav">
+    <Link to="#aboutMe" class="navHref">
+      00. About Me
+    </Link>
+    <Link to="#project" class="navHref">
+      01. Projects
+    </Link>
+    <Link to="#experience" class="navHref">
+      02. Experience
+    </Link>
+    <Link to="#contact" class="navHref">
+      03. Contact
+    </Link>
   </div>
 )
 
