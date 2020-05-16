@@ -8,7 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
+import Nav from "../components/navbar"
 import Header from "./header"
 import "./layout.css"
 
@@ -33,6 +33,8 @@ const Layout = ({ children }) => {
           // padding: `0 1.0875rem 1.45rem`,
         }}
       >
+        <Header />
+        <Nav />
         <main>{children}</main>
         <footer>© {new Date().getFullYear()} Hannah Huang</footer>
       </div>

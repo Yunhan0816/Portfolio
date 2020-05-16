@@ -5,32 +5,16 @@ import Layout from "../components/layout"
 import NavBar from "../components/navbar"
 import Projects from "../components/projects"
 import AboutMePic from "../components/aboutmepic"
-import Header from "../components/header"
 // import Image from "../components/image"
 import SEO from "../components/seo"
 
 class IndexPage extends React.Component {
   render() {
-    // const isMobile = false
-    // let title = (
-    //   <>
-    //     {" "}
-    //     <p>
-    //       <a id="myname"> Hannah Huang</a>{" "}
-    //       |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||{" "}
-    //     </p>
-    //   </>
-    // )
-
-    // if (isMobile) {
-    //   title = <a id="myname"> Hannah Huang</a>
-    // }
     return (
       <Layout>
         <SEO title="Hannah Huang" />
-        <Header />
         {/* <h1>{title}</h1> */}
-        <NavBar />
+        {/* <NavBar /> */}
         <br></br>
         <div class="row">
           <div class="col-9">

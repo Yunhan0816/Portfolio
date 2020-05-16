@@ -61,6 +61,37 @@ Link:hover {
 a {
   text-decoration: none;
 }
+.nav {
+  display: none;
+  padding: 10px 30px;
+
+  @media (min-width: $md) {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.nav__list {
+  margin-bottom: 0;
+  margin-left: auto;
+}
+
+.nav__item {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 0;
+}
+
+.nav__link {
+  /* @include body-text; */
+  font-weight: 700;
+}
+.nav__link:hover {
+  border-bottom: 2px solid;
+  margin-bottom: -2px;
+  text-decoration: none;
+}
 
 #toBold {
   font-weight: bold;
