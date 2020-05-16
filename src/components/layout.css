@@ -51,16 +51,13 @@ h3 {
 Link,
 Link:hover {
   box-shadow: none;
-  color: #007acc;
   text-decoration: none;
 }
 
-.nav {
-  margin-left: 50%;
-}
 a {
   text-decoration: none;
 }
+
 .nav {
   display: none;
   padding: 10px 30px;
@@ -86,9 +83,11 @@ a {
 .nav__link {
   /* @include body-text; */
   font-weight: 700;
+  color: #81c5fc;
 }
 .nav__link:hover {
-  border-bottom: 2px solid;
+  color: #81c5fc;
+  border-bottom: 2px solid #81c5fc;
   margin-bottom: -2px;
   text-decoration: none;
 }

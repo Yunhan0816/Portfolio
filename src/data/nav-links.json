@@ -1,18 +1,18 @@
 [
   {
-    "name": "About Me",
+    "name": "00. About Me",
     "path": "/#aboutMe"
   },
   {
-    "name": "Projects",
+    "name": "01. Projects",
     "path": "/#project"
   },
   {
-    "name": "Experience",
+    "name": "02. Experience",
     "path": "/#experience"
   },
   {
-    "name": "Contact",
+    "name": "03. Contact",
     "path": "/#contact"
   }
 ]

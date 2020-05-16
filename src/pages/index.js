@@ -13,8 +13,7 @@ class IndexPage extends React.Component {
     return (
       <Layout>
         <SEO title="Hannah Huang" />
-        {/* <h1>{title}</h1> */}
-        {/* <NavBar /> */}
+
         <br></br>
         <div class="row">
           <div class="col-9">
