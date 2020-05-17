@@ -16,7 +16,7 @@ const Image = () => {
   `)
 
   return (
-    <div id="profilepic">
+    <div class="profilepic">
       <Img fluid={data.placeholderImage.childImageSharp.fluid} />
     </div>
   )

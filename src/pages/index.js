@@ -4,7 +4,7 @@ import AboutMe from "../components/aboutme"
 import Layout from "../components/layout"
 import NavBar from "../components/navbar"
 import Projects from "../components/projects"
-import AboutMePic from "../components/aboutmepic"
+import Image from "../components/aboutmepic"
 // import Image from "../components/image"
 import SEO from "../components/seo"
 
@@ -16,14 +16,14 @@ class IndexPage extends React.Component {
 
         <br></br>
         <div class="row">
-          <div class="col-9" id="aboutMe">
+          <div class="col-12" id="aboutMe">
             <AboutMe />{" "}
           </div>
-          <div class="col-3">
+          {/* <div class="col-4">
             <div>
-              <AboutMePic />
+              <Image />
             </div>
-          </div>
+          </div> */}
         </div>
         <br></br>
         <div class="row">
