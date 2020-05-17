@@ -8,28 +8,28 @@ const Projects = () => (
     <br></br>
     <div>
       <div class="row">
-        <div class="col-8">
+        <div class="col-4">
           <p id="projectTitle"> >> InRainbows</p>
-        </div>
-        <div class="col-2">
-          <a id="redirect" href="https://github.com/Yunhan0816/InRainbows">
-            GitHub
-          </a>
-        </div>
-        <div class="col-2">
-          <a id="redirect" href="#">
-            Poster
-          </a>
         </div>
       </div>
       <div class="col-12">
         <p> ::::::::::::::::::::::::::::::::: </p>
         <p>
-          01/2020 - Present | <b id="techstack">#VueJS</b>
+          <b>01/2020 - Present</b> | <b id="techstack">#VueJS</b>
           <b id="techstack">#NodeJS</b>
           <b id="techstack">#Firebase </b>
           <b id="techstack">#GoogleMap API</b>
-          <b id="techstack">#HTML/CSS</b>
+          <b id="techstack">#HTML/CSS | </b>
+          <b class="col-2">
+            <a id="redirect" href="https://github.com/Yunhan0816/InRainbows">
+              GitHub
+            </a>
+          </b>
+          <b class="col-2">
+            <a id="redirect" href="#">
+              Poster
+            </a>
+          </b>
         </p>
         <div class="row">
           <div class="col-3">
@@ -69,26 +69,26 @@ const Projects = () => (
     <br></br>
     <div>
       <div class="row">
-        <div class="col-10">
+        <div class="col-5">
           <p id="projectTitle"> >> Personalized Concert Generator</p>
-        </div>
-        <div class="col-2">
-          <a
-            id="redirect"
-            href="https://github.com/Yunhan0816/personalized_concert_generator"
-          >
-            GitHub
-          </a>
         </div>
       </div>
       <div class="col-12">
         <p> ::::::::::::::::::::::::::::::::: </p>
         <p>
-          02/2020 - 05/2020 |<b id="techstack"> #ExpressJS</b>
+          <b> 02/2020 - 05/2020</b> <b id="techstack"> | #ExpressJS</b>
           <b id="techstack">#Firebase</b>
           <b id="techstack">Spotify OAuth & API</b>
           <b id="techstack">SeatGeek API</b>
-          <b id="techstack">#HTML/CSS</b>
+          <b id="techstack">#HTML/CSS | </b>
+          <b>
+            <a
+              id="redirect"
+              href="https://github.com/Yunhan0816/personalized_concert_generator"
+            >
+              GitHub
+            </a>
+          </b>
         </p>
 
         <div class="row">
@@ -115,22 +115,22 @@ const Projects = () => (
     <br></br>
     <div>
       <div class="row">
-        <div class="col-10">
+        <div class="col-5">
           <p id="projectTitle"> >> Apple's FindMy Simulation</p>
-        </div>
-        <div class="col-2">
-          <a
-            id="redirect"
-            href="https://github.com/Yunhan0816/FindMy-Simulations"
-          >
-            GitHub
-          </a>
         </div>
       </div>{" "}
       <div class="col-12">
         <p> ::::::::::::::::::::::::::::::::: </p>
         <p>
-          04/2020 | <b id="techstack">#Python</b>
+          04/2020 | <b id="techstack">#Python | </b>{" "}
+          <b>
+            <a
+              id="redirect"
+              href="https://github.com/Yunhan0816/FindMy-Simulations"
+            >
+              GitHub
+            </a>
+          </b>
         </p>
         <p class="toGrey">
           The code performs a simple simulation of{" "}
@@ -154,13 +154,8 @@ const Projects = () => (
     <br></br>
     <div>
       <div class="row">
-        <div class="col-10">
+        <div class="col-4">
           <p id="projectTitle"> >> InhalED</p>
-        </div>
-        <div class="col-2">
-          <a id="redirect" href="https://github.com/Yunhan0816/inhale-ed">
-            GitHub
-          </a>
         </div>
       </div>{" "}
       <div class="col-12">
@@ -168,7 +163,17 @@ const Projects = () => (
         <p>
           10/2019 | <b id="techstack">#VueJS</b>
           <b id="techstack">#NodeJS</b>
-          <b id="techstack">#Firebase Database</b>
+          <b id="techstack">#Firebase Database | </b>
+          <b class="col-2">
+            <a id="redirect" href="https://github.com/Yunhan0816/inhale-ed">
+              GitHub
+            </a>
+          </b>
+          <b class="col-2">
+            <a id="redirect" href="https://devpost.com/software/inhaled">
+              Devpost
+            </a>
+          </b>
         </p>
         <p class="toGrey">
           <a id="redirect" href="https://inhaled-bh19.firebaseapp.com/">
