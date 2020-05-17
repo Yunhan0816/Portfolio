@@ -6,5 +6,5 @@
 <h1 align="center">
 Hannah Huang Website
 </h1>
-Personal Website: www.hannahhuang.mes
+Personal Website: www.hannahhuang.me<br>
 Development part is on mast branch, and the deployment part is on gh-pages brnach.
