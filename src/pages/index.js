@@ -16,15 +16,23 @@ class IndexPage extends React.Component {
 
         <br></br>
         <div class="row">
-          <div class="col-9">
+          <div class="col-9" id="aboutMe">
             <AboutMe />{" "}
           </div>
           <div class="col-3">
-            <AboutMePic />
+            <div>
+              <AboutMePic />
+            </div>
           </div>
         </div>
         <br></br>
-        <Projects />
+        <div class="row">
+          <div id="project">
+            {" "}
+            <Projects />
+          </div>
+        </div>
+
         <Link to="/page-2/">Go to page 2</Link>
       </Layout>
     )

@@ -1,7 +1,7 @@
 import React from "react"
 
 const Projects = () => (
-  <div id="project">
+  <div class="col-12">
     {" "}
     <h2 style={{ fontSize: "30px", fontWeight: "bold" }}># Projects</h2>
     <div>
@@ -20,65 +20,66 @@ const Projects = () => (
           </a>
         </div>
       </div>
-      <p>
-        {" "}
-        ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::{" "}
-      </p>
-      <p>
-        01/2020 - Present | <a id="techstack">#VueJS</a>
-        <a id="techstack">#NodeJS</a>
-        <a id="techstack">#Firebase Database</a>
-        <a id="techstack">#GoogleMap API</a>
-        <a id="techstack">#HTML/CSS</a>
-      </p>
-      <p id="toGrey">
-        <a href="https://inrainbows-171a7.web.app/" id="redirect">
-          InRainbows
-        </a>{" "}
-        is a web application for high school and college-age LGBTQ+ members in
-        Boston to easily access queer-friendly mental health resources based on
-        preferences that matter to them.{" "}
-      </p>
-      <p id="toGrey">
-        I first pitched the project idea to <a id="toBold">BU Spark! </a>
-        and then got accepted and funded by{" "}
-        <a
-          href="https://www.bu.edu/spark/students/spark-programs/"
-          id="redirect"
-        >
-          BU Spark! Innovation Fellowship Program
-        </a>
-        .{" "}
-      </p>
-      <p id="toGrey">
-        As the <a id="toBold">founder</a> and the{" "}
-        <a id="toBold">lead developer</a>, I lead a team of 3 software engineer
-        and 1 UX designer to ensure the development of website features using{" "}
-        <a id="toBold">Agile</a> methodology, programmed both front-end and
-        back-end.{" "}
-      </p>
+      <div class="col-12">
+        <p> ::::::::::::::::::::::::::::::::: </p>
+        <p>
+          01/2020 - Present | <b id="techstack">#VueJS</b>
+          <b id="techstack">#NodeJS</b>
+          <b id="techstack">#Firebase Database</b>
+          <b id="techstack">#GoogleMap API</b>
+          <b id="techstack">#HTML/CSS</b>
+        </p>
+        <p class="toGrey">
+          <a href="https://inrainbows-171a7.web.app/" id="redirect">
+            InRainbows
+          </a>{" "}
+          is a web application for high school and college-age LGBTQ+ members in
+          Boston to easily access queer-friendly mental health resources based
+          on preferences that matter to them.{" "}
+        </p>
+        <p class="toGrey">
+          I first pitched the project idea to <b>BU Spark! </b>
+          and then got accepted and funded by{" "}
+          <a
+            href="https://www.bu.edu/spark/students/spark-programs/"
+            id="redirect"
+          >
+            BU Spark! Innovation Fellowship Program
+          </a>
+          .{" "}
+        </p>
+        <p class="toGrey">
+          As the <b>founder</b> and the <b>lead developer</b>, I lead a team of
+          3 software engineer and 1 UX designer to ensure the development of
+          website features using <b>Agile</b> methodology, programmed both
+          front-end and back-end.{" "}
+        </p>
+      </div>
     </div>
     <br></br>
     <div>
       <p id="projectTitle"> > Personalized Concert Generator</p>
-      <p>
-        {" "}
-        :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::{" "}
-      </p>
+      <p> ::::::::::::::::::::::::::::::::: </p>
     </div>
     <br></br>
     <div>
-      <p id="projectTitle"> > InhalED</p>
+      <div class="row">
+        <div class="col-10">
+          <p id="projectTitle"> > InhalED</p>
+        </div>
+        <div class="col-2">
+          <a id="redirect" href="https://github.com/Yunhan0816/inhale-ed">
+            Github
+          </a>
+        </div>
+      </div>{" "}
+      <p> ::::::::::::::::::::::::::::::::: </p>
       <p>
-        {" "}
-        :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::{" "}
+        10/2019 | <b id="techstack">#VueJS</b>
+        <b id="techstack">#NodeJS</b>
+        <b id="techstack">#Firebase Database</b>
       </p>
-      <p>
-        10/2019 | <a id="techstack">#VueJS</a>
-        <a id="techstack">#NodeJS</a>
-        <a id="techstack">#Firebase Database</a>
-      </p>
-      <p id="toGrey">
+      <p class="toGrey">
         <a id="redirect" href="https://inhaled-bh19.firebaseapp.com/">
           InhalED
         </a>{" "}
@@ -87,19 +88,18 @@ const Projects = () => (
         physical condition, which further helps with patient-doctor
         communication and create the most effective regime.{" "}
       </p>
-      <p id="toGrey">Built by me and other 2 teammates at BostonHacks 2019. </p>
-      <p id="toGrey">
-        First Place Winner of Best Use of Google Cloud and Environmental
-        Sustainability Challenge at BostonHacks 2019.
+      <p class="toGrey">
+        Built by me and other 2 teammates at <b>BostonHacks 2019.</b>{" "}
+      </p>
+      <p class="toGrey">
+        First Place Winner of <b>Best Use of Google Cloud</b> and
+        <b> Environmental Sustainability Challenge</b> at BostonHacks 2019.
       </p>
     </div>
     <br></br>
     <div>
       <p id="projectTitle">Help At Hand</p>
-      <p>
-        {" "}
-        :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::{" "}
-      </p>
+      <p> ::::::::::::::::::::::::::::::::: </p>
     </div>
     <br></br>
   </div>
