@@ -2,8 +2,8 @@
 
 * {
   font-family: "Overpass Mono", sans-serif;
-  background-color: #222028;
-  color: #d4feda;
+  background-color: #1f1b2c;
+  color: #abc0ae;
   font-size: 15px;
 }
 
@@ -132,6 +132,9 @@ span {
   padding-left: 2%;
   padding-right: 2%;
   border: 8px solid #d4feda;
+}
+.resumelinks {
+  margin-left: 50%;
 }
 
 #myname {
