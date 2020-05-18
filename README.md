@@ -1,6 +1,6 @@
 <p align="center">
   <a href="www.hannahhuang.me">
-    <img alt="Hannah Huang Logo" src="src/pages/favicon.png" width="60" />
+    <img alt="Hannah Huang Logo" src="src/images/Hannah.png" width="60" />
   </a>
 </p>
 <h1 align="center">

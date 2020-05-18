@@ -8,33 +8,69 @@ const Header = () => (
         Hannah Huang
         <br></br>
       </a>{" "}
-      <b style={{ fontSize: "35px" }} class="col-2">
+      <b style={{ fontSize: "35px", paddingLeft: "30px" }} class="col-2">
         &#x1f469;&#x1F3FB;&#x200D;&#x1F4BB;
       </b>
     </div>
     <div class="row">
       <p style={{ paddingTop: "5px" }}>
         {" "}
-        <a style={{ color: " #c7e6cc" }} href="/">
+        <a
+          style={{
+            color: " #c7e6cc",
+            fontFamily: "Overpass Mono, sans-serif",
+            paddingRight: "10px",
+          }}
+          href="/"
+        >
           Resume
         </a>{" "}
         |{" "}
-        <a style={{ color: " #c7e6cc" }} href="https://github.com/Yunhan0816">
+        <a
+          style={{
+            color: " #c7e6cc",
+            fontFamily: "Overpass Mono, sans-serif",
+            paddingLeft: "10px",
+            paddingRight: "10px",
+          }}
+          href="https://github.com/Yunhan0816"
+        >
           GitHub
         </a>{" "}
         |{" "}
         <a
-          style={{ color: " #c7e6cc" }}
+          style={{
+            color: " #c7e6cc",
+            fontFamily: "Overpass Mono, sans-serif",
+            paddingLeft: "10px",
+            paddingRight: "10px",
+          }}
           href="https://www.linkedin.com/in/hannah-yunhan-huang-007520165/"
         >
           LinkedIn
         </a>{" "}
         |{" "}
-        <a style={{ color: " #c7e6cc" }} href="https://medium.com/@yunhanh">
+        <a
+          style={{
+            color: " #c7e6cc",
+            fontFamily: "Overpass Mono, sans-serif",
+            paddingLeft: "10px",
+            paddingRight: "10px",
+          }}
+          href="https://medium.com/@yunhanh"
+        >
           Blog
         </a>{" "}
         |{" "}
-        <a style={{ color: " #c7e6cc" }} href="mailto:hannahhuang816@gmail.com">
+        <a
+          style={{
+            color: " #c7e6cc",
+            fontFamily: "Overpass Mono, sans-serif",
+            paddingLeft: "10px",
+            paddingRight: "10px",
+          }}
+          href="mailto:hannahhuang816@gmail.com"
+        >
           Email
         </a>
       </p>
