@@ -10,7 +10,7 @@ const AboutMe = () => (
             fontWeight: "bold",
           }}
         >
-          # About Me
+          00. About Me
         </h1>{" "}
         <p class="toGrey">
           Hello! I'm Hannah, a 4th year Computer Science student studying at

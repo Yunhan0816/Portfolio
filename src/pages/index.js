@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import Projects from "../components/projects"
 // import Image from "../components/image"
 import Contact from "../components/contact"
+// import Experience from "../components/experience"
 import SEO from "../components/seo"
 
 class IndexPage extends React.Component {
@@ -30,6 +31,12 @@ class IndexPage extends React.Component {
             <Projects />
           </div>
         </div>
+        {/* <br></br>
+        <div class="row">
+          <div id="contact">
+            <Experience />
+          </div>
+        </div> */}
         <br></br>
         <div class="row">
           <div id="contact">

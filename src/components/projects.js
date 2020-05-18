@@ -10,7 +10,7 @@ const Projects = () => (
   <div class="col-12">
     {" "}
     <h3 style={{ fontSize: "26px", fontWeight: "bold" }}>
-      # Noteworthy Projects
+      01. Noteworthy Projects
     </h3>
     <br></br>
     <div>
