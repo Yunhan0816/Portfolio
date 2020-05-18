@@ -152,6 +152,8 @@ span {
 #myname {
   background-color: #d4feda;
   color: #222028;
+  padding-right: 15px;
+  padding-left: 15px;
   font-size: 35px;
 }
 
