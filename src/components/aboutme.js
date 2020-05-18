@@ -4,7 +4,7 @@ const AboutMe = () => (
   <div class="col-12">
     <div class="row">
       <div class="col-9">
-        <h1 style={{ fontSize: "30px", fontWeight: "bold" }}># About Me</h1>{" "}
+        <h1 style={{ fontSize: "26px", fontWeight: "bold" }}># About Me</h1>{" "}
         <p class="toGrey">
           Hello! I'm Hannah, a 4th year Computer Science student studying at
           Boston University (graduating May 2021). <br></br>

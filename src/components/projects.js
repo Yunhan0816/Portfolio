@@ -5,10 +5,13 @@ import Inhaled from "../images/inhaled.png"
 import AppleFindMy from "../images/applefindmy.png"
 import HelpAtHand from "../images/help_at_hand.png"
 import Lyrics from "../images/lyricsanalysis.png"
+import Ameelio from "../images/ameelio.png"
 const Projects = () => (
   <div class="col-12">
     {" "}
-    <h3 style={{ fontSize: "26px", fontWeight: "bold" }}># My Projects</h3>
+    <h3 style={{ fontSize: "26px", fontWeight: "bold" }}>
+      # Noteworthy Projects
+    </h3>
     <br></br>
     <div>
       <div class="row">
@@ -164,6 +167,7 @@ const Projects = () => (
       </div>
     </div>
     <br></br>
+    <br></br>
     <div>
       <div class="row">
         <div class="col-12">
@@ -215,6 +219,7 @@ const Projects = () => (
       </div>
       <br></br>
     </div>
+    <br></br>
     <div>
       <div class="row">
         <div class="col-12">
@@ -259,6 +264,7 @@ const Projects = () => (
       </div>
       <br></br>
     </div>
+    <br></br>
     <div>
       <div class="row">
         <div class="col-12">
@@ -307,6 +313,52 @@ const Projects = () => (
         </div>
       </div>
       <br></br>
+      <br></br>
+      <div>
+        <div class="row">
+          <div class="col-12">
+            <p id="projectTitle"> >> Ameelio Connect</p>
+          </div>
+        </div>
+        <div class="col-12">
+          <p> ::::::::::::::::::::::::::::::::: </p>
+          <p>
+            10/2019 | <b id="techstack">#VueJS</b>
+            <b id="techstack">#NodeJS</b>
+            <b id="techstack">#Firebase | </b>
+            <b class="col-2">
+              <a id="redirect" href="https://github.com/Yunhan0816/ameelio">
+                GitHub
+              </a>
+            </b>
+          </p>
+
+          <div class="row">
+            <div class="col-3">
+              <img src={Ameelio} alt="Oops" class="img-fluid" />
+            </div>
+            <div class="col-9">
+              <p class="toGrey">
+                Collaborated with{" "}
+                <a href="https://ameelio.org/" id="redirect">
+                  Ameelio.org
+                </a>{" "}
+                and built a web application for inmates in the US to contact
+                their loved ones. Worked with Vue.js for the frontend and
+                firebase for the backend.
+                <br></br>
+                <br></br>Allowed friends and families to schedule video calls
+                with their inmate contact, and administrators to
+                approve/disapprove connections between friends and families and
+                inmates in specific prisons.
+                <br></br>
+                <br></br>Responsible for <b>backend</b>, leading a team of 5
+                engineers and managing database connection and communication.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 )

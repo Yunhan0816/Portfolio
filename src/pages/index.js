@@ -2,10 +2,9 @@ import React, { Component } from "react"
 import { Link } from "gatsby"
 import AboutMe from "../components/aboutme"
 import Layout from "../components/layout"
-import NavBar from "../components/navbar"
 import Projects from "../components/projects"
-import Image from "../components/aboutmepic"
 // import Image from "../components/image"
+import Experience from "../components/experience"
 import SEO from "../components/seo"
 
 class IndexPage extends React.Component {
@@ -30,6 +29,12 @@ class IndexPage extends React.Component {
           <div id="project">
             {" "}
             <Projects />
+          </div>
+        </div>
+        <br></br>
+        <div class="row">
+          <div id="experience">
+            <Experience />
           </div>
         </div>
 
