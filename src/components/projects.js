@@ -6,6 +6,7 @@ import AppleFindMy from "../images/applefindmy.png"
 import HelpAtHand from "../images/help_at_hand.png"
 import Lyrics from "../images/lyricsanalysis.png"
 import Ameelio from "../images/ameelio.png"
+import PersonalWebsite from "../images/personalwebsite.png"
 const Projects = () => (
   <div class="col-12">
     {" "}
@@ -262,6 +263,40 @@ const Projects = () => (
               enter the information of the incident. Chat room provides victims
               of sexual assault a place to talk to other users.
             </p>
+          </div>
+        </div>
+      </div>
+      <br></br>
+      <div>
+        <div class="row">
+          <div class="col-12">
+            <p id="projectTitle"> >> Personal Website</p>
+          </div>
+        </div>{" "}
+        <div class="col-12">
+          {/* <p> ::::::::::::::::::::::::::::::::: </p> */}
+          <p>
+            05/2020 | <b id="techstack">#React</b>
+            <b id="techstack">#GatsbyJS</b>
+            <b id="techstack">#CSS |</b>
+            <b class="col-2">
+              <a id="redirect" href="https://github.com/Yunhan0816/Portfolio">
+                GitHub
+              </a>
+            </b>
+          </p>
+          <div class="row">
+            <div class="col-2">
+              <img src={PersonalWebsite} alt="Oops" class="img-fluid" />
+            </div>
+            <div class="col-10">
+              <p class="toGrey">
+                The personal website that you are currently viewing. <br></br>
+                <br></br>
+                Built and designed from scratch, implemented with React,
+                GatsbyJS and hosted via GitHub Pages.{" "}
+              </p>
+            </div>
           </div>
         </div>
       </div>
