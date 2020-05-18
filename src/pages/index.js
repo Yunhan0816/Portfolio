@@ -1,10 +1,9 @@
 import React, { Component } from "react"
-import { Link } from "gatsby"
 import AboutMe from "../components/aboutme"
 import Layout from "../components/layout"
 import Projects from "../components/projects"
 // import Image from "../components/image"
-import Experience from "../components/experience"
+import Contact from "../components/contact"
 import SEO from "../components/seo"
 
 class IndexPage extends React.Component {
@@ -33,12 +32,10 @@ class IndexPage extends React.Component {
         </div>
         <br></br>
         <div class="row">
-          <div id="experience">
-            <Experience />
+          <div id="contact">
+            <Contact />
           </div>
         </div>
-
-        <Link to="/page-2/">Go to page 2</Link>
       </Layout>
     )
   }

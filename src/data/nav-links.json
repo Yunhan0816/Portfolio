@@ -7,12 +7,9 @@
     "name": "01. Projects",
     "path": "/#project"
   },
+
   {
-    "name": "02. Experience",
-    "path": "/#experience"
-  },
-  {
-    "name": "03. Contact",
+    "name": "02.Contact",
     "path": "/#contact"
   }
 ]

@@ -20,7 +20,7 @@ const Header = () => (
         </a>{" "}
         |{" "}
         <a style={{ color: " #c7e6cc" }} href="https://github.com/Yunhan0816">
-          Github
+          GitHub
         </a>{" "}
         |{" "}
         <a
@@ -28,6 +28,10 @@ const Header = () => (
           href="https://www.linkedin.com/in/hannah-yunhan-huang-007520165/"
         >
           LinkedIn
+        </a>{" "}
+        |{" "}
+        <a style={{ color: " #c7e6cc" }} href="https://medium.com/@yunhanh">
+          Blog
         </a>{" "}
         |{" "}
         <a style={{ color: " #c7e6cc" }} href="mailto:hannahhuang816@gmail.com">

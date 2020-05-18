@@ -37,7 +37,18 @@ const Layout = ({ children }) => {
         <Header />
         <Nav />
         <main>{children}</main>
-        <footer>© {new Date().getFullYear()} Hannah Huang</footer>
+        <br></br>
+        <footer
+          style={{
+            textAlign: "center",
+            fontFamily: "Lato, sans-serif",
+            color: "white",
+            fontSize: "15px",
+          }}
+        >
+          Design & Build by Hannah Huang
+        </footer>
+        <br></br>
       </div>
     </>
   )
