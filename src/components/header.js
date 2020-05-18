@@ -5,8 +5,9 @@ const Header = () => (
     <a id="myname" href="/">
       {" "}
       Hannah Huang
+      <br></br>
     </a>{" "}
-    <p>Resume | Github | LinkedIn | Email</p>
+    <p style={{ paddingTop: "5px" }}>Resume | Github | LinkedIn | Email</p>
     {/* <div class="col-12">||||||||||||||||||||||||||||||||||||||||||||| </div> */}
     {/* </p> */}
   </div>

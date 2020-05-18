@@ -1,14 +1,18 @@
 import React from "react"
 import InRainbowsLogo from "../images/InRainbows.png"
 import ConcertGenerator from "../images/concert_generator.png"
+import Inhaled from "../images/inhaled.png"
+import AppleFindMy from "../images/applefindmy.png"
+import HelpAtHand from "../images/help_at_hand.png"
+import Lyrics from "../images/lyricsanalysis.png"
 const Projects = () => (
   <div class="col-12">
     {" "}
-    <h2 style={{ fontSize: "30px", fontWeight: "bold" }}># My Projects</h2>
+    <h3 style={{ fontSize: "26px", fontWeight: "bold" }}># My Projects</h3>
     <br></br>
     <div>
       <div class="row">
-        <div class="col-4">
+        <div class="col-12">
           <p id="projectTitle"> >> InRainbows</p>
         </div>
       </div>
@@ -19,7 +23,7 @@ const Projects = () => (
           <b id="techstack">#NodeJS</b>
           <b id="techstack">#Firebase </b>
           <b id="techstack">#GoogleMap API</b>
-          <b id="techstack">#HTML/CSS | </b>
+          <b id="techstack">#HTML/CSS </b> |
           <b class="col-2">
             <a id="redirect" href="https://github.com/Yunhan0816/InRainbows">
               GitHub
@@ -57,9 +61,9 @@ const Projects = () => (
             </p>
             <p class="toGrey">
               As the <b>founder</b> and the <b>lead developer</b>, I lead a team
-              of 3 software engineer and 1 UX designer to ensure the development
-              of website features using <b>Agile</b> methodology, programmed
-              both front-end and back-end.{" "}
+              of 3 software engineers and 1 UX designer to ensure the
+              development of website features using <b>Agile</b> methodology,
+              and programmed both front-end and back-end.{" "}
             </p>
           </div>
         </div>
@@ -69,7 +73,7 @@ const Projects = () => (
     <br></br>
     <div>
       <div class="row">
-        <div class="col-5">
+        <div class="col-12">
           <p id="projectTitle"> >> Personalized Concert Generator</p>
         </div>
       </div>
@@ -115,7 +119,7 @@ const Projects = () => (
     <br></br>
     <div>
       <div class="row">
-        <div class="col-5">
+        <div class="col-12">
           <p id="projectTitle"> >> Apple's FindMy Simulation</p>
         </div>
       </div>{" "}
@@ -132,29 +136,37 @@ const Projects = () => (
             </a>
           </b>
         </p>
-        <p class="toGrey">
-          The code performs a simple simulation of{" "}
-          <a
-            id="redirect"
-            href="https://support.apple.com/guide/security/end-to-end-encryption-sec60fd770ba/1/web/1"
-          >
-            Apple's Find My
-          </a>{" "}
-          system in a scenario where an Apple user, Bob, loses his phone in an
-          airport without internet. Bob's phone uses <b>Bluetooth </b>to
-          communicate with nearby iDevices and have them relay approximate
-          location information to <b>iCloud</b>.
-        </p>
-        <p class="toGrey">
-          Built by me and another teammates as the final project for{" "}
-          <b>Applied Cryptography</b> class at Boston University
-        </p>
+        <div class="row">
+          <div class="col-3">
+            <img src={AppleFindMy} alt="Oops" class="img-fluid" />
+          </div>
+          <div class="col-9">
+            {" "}
+            <p class="toGrey">
+              The app performs a simple simulation of{" "}
+              <a
+                id="redirect"
+                href="https://support.apple.com/guide/security/end-to-end-encryption-sec60fd770ba/1/web/1"
+              >
+                Apple's Find My
+              </a>{" "}
+              system in a scenario where an Apple user, Bob, loses his phone in
+              an airport without internet. Bob's phone uses <b>Bluetooth </b>to
+              communicate with nearby iDevices and have them relay approximate
+              location information to <b>iCloud</b>.
+            </p>
+            <p class="toGrey">
+              Built by me and another teammates as the final project for{" "}
+              <b>Applied Cryptography</b> class at Boston University
+            </p>
+          </div>
+        </div>
       </div>
     </div>
     <br></br>
     <div>
       <div class="row">
-        <div class="col-4">
+        <div class="col-12">
           <p id="projectTitle"> >> InhalED</p>
         </div>
       </div>{" "}
@@ -175,31 +187,127 @@ const Projects = () => (
             </a>
           </b>
         </p>
-        <p class="toGrey">
-          <a id="redirect" href="https://inhaled-bh19.firebaseapp.com/">
-            InhalED
-          </a>{" "}
-          (ED for Emergency Department) is a web application for{" "}
-          <b>asthma patients </b>
-          to keep track of their data on inhaler usage, smoking habit, and daily
-          physical condition, which further helps with patient-doctor
-          communication and create the most effective regime.{" "}
-        </p>
-        <p class="toGrey">
-          Built by me and other 2 teammates at <b>BostonHacks 2019.</b>{" "}
-        </p>
-        <p class="toGrey">
-          First Place Winner of <b>Best Use of Google Cloud</b> and
-          <b> Environmental Sustainability Challenge</b> at BostonHacks 2019.
-        </p>
+        <div class="row">
+          <div class="col-3">
+            <img src={Inhaled} alt="Oops" class="img-fluid" />
+          </div>
+          <div class="col-9">
+            <p class="toGrey">
+              <a id="redirect" href="https://inhaled-bh19.firebaseapp.com/">
+                InhalED
+              </a>{" "}
+              (ED for Emergency Department) is a web application for{" "}
+              <b>asthma patients </b>
+              to keep track of their data on inhaler usage, smoking habit, and
+              daily physical condition, which further helps with patient-doctor
+              communication and create the most effective regime.{" "}
+            </p>
+            <p class="toGrey">
+              Built by me and other 2 teammates at <b>BostonHacks 2019.</b>{" "}
+            </p>
+            <p class="toGrey">
+              First Place Winner of <b>Best Use of Google Cloud</b> and
+              <b> Environmental Sustainability Challenge</b> at BostonHacks
+              2019.
+            </p>
+          </div>
+        </div>
       </div>
       <br></br>
     </div>
     <div>
-      <p id="projectTitle">Help At Hand</p>
-      <p> ::::::::::::::::::::::::::::::::: </p>
+      <div class="row">
+        <div class="col-12">
+          <p id="projectTitle"> >> HelpAtHand</p>
+        </div>
+      </div>{" "}
+      <div class="col-12">
+        <p> ::::::::::::::::::::::::::::::::: </p>
+        <p>
+          10/2019 | <b id="techstack">#VueJS</b>
+          <b id="techstack">#NodeJS</b>
+          <b id="techstack">#Firebase Database | </b>
+          <b class="col-2">
+            <a id="redirect" href="https://github.com/Yunhan0816/help_at_hand">
+              GitHub
+            </a>
+          </b>
+          <b class="col-2">
+            <a id="redirect" href="https://devpost.com/software/helpathand">
+              Devpost
+            </a>
+          </b>
+        </p>
+        <div class="row">
+          <div class="col-3">
+            <img src={HelpAtHand} alt="Oops" class="img-fluid" />
+          </div>
+          <div class="col-9">
+            <p class="toGrey">
+              A web application that gives victims of sexual assult a voice. It
+              is a platform for anonymous sexual assault case reports and step
+              by step guidance for finding help from local hospitals and therapy
+              centers.
+              <br></br>
+              <br></br>Home page provides find help button, call-help phone
+              number, and directs to report cases view that allows users to
+              enter the information of the incident. Chat room provides victims
+              of sexual assault a place to talk to other users.
+            </p>
+          </div>
+        </div>
+      </div>
+      <br></br>
     </div>
-    <br></br>
+    <div>
+      <div class="row">
+        <div class="col-12">
+          <p id="projectTitle"> >> Band Lyrics Analysis</p>
+        </div>
+      </div>{" "}
+      <div class="col-12">
+        <p> ::::::::::::::::::::::::::::::::: </p>
+        <p>
+          10/2019 | <b id="techstack">#Python</b>
+          <b id="techstack">#Pandas</b>
+          <b id="techstack">#NLTK</b>
+          <b id="techstack">#Genius API | </b>
+          <b class="col-2">
+            <a
+              id="redirect"
+              href="https://github.com/Yunhan0816/band-lyrics-analysis"
+            >
+              GitHub
+            </a>
+          </b>
+        </p>
+        <div class="row">
+          <div class="col-3">
+            <img src={Lyrics} alt="Oops" class="img-fluid" />
+          </div>
+          <div class="col-9">
+            <p class="toGrey">
+              Analysis on my favorite indie bands' song lyrics. I Analyzed
+              Radiohead, Beach Fossils, Beach House, Diiv, and Wild Nothing's
+              lyrics, generating word clouds, and examining their sentiments.
+              <br></br>
+              <br></br>
+              Obtained Lyrics of the bands from <b>Genius API</b> with the help
+              of web scraping using <b>BeautifulSoup</b>. Cleaned the data by
+              removing unneccessary phrases.
+              <br></br>
+              <br></br>
+              Utilized <b>WordCloud</b> library in Python to obtain word cloud
+              for each artists and used <b>NLTK's Sentiment Analyzer</b> to
+              generate <b>normalized unidimensional metric</b> of sentiment,
+              finding the positivity, negativity, and neutrality of the lyrics
+              by each artist, and illustrated the result by plotting the graph.
+            </p>
+          </div>
+        </div>
+      </div>
+      <br></br>
+    </div>
   </div>
 )
 
