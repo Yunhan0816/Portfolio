@@ -20,7 +20,10 @@ const Projects = () => (
         </div>
       </div>
       <div class="col-12">
-        <p> ::::::::::::::::::::::::::::::::: </p>
+        {/* <p>
+          {" "}
+          :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+        </p> */}
         <p>
           <b>01/2020 - Present</b> | <b id="techstack">#VueJS</b>
           <b id="techstack">#NodeJS</b>
@@ -39,10 +42,10 @@ const Projects = () => (
           </b>
         </p>
         <div class="row">
-          <div class="col-3">
+          <div class="col-2">
             <img src={InRainbowsLogo} alt="Oops" class="img-fluid" />
           </div>
-          <div class="col-9">
+          <div class="col-10">
             <p class="toGrey">
               <a href="https://inrainbows-171a7.web.app/" id="redirect">
                 InRainbows
@@ -81,7 +84,7 @@ const Projects = () => (
         </div>
       </div>
       <div class="col-12">
-        <p> ::::::::::::::::::::::::::::::::: </p>
+        {/* <p> ::::::::::::::::::::::::::::::::: </p> */}
         <p>
           <b> 02/2020 - 05/2020</b> <b id="techstack"> | #ExpressJS</b>
           <b id="techstack">#Firebase</b>
@@ -99,10 +102,10 @@ const Projects = () => (
         </p>
 
         <div class="row">
-          <div class="col-3">
+          <div class="col-2">
             <img src={ConcertGenerator} alt="Oops" class="img-fluid" />
           </div>
-          <div class="col-9">
+          <div class="col-10">
             <p class="toGrey">
               A web application for music lovers to get <b>personalized</b> and
               up-to-date concert ticket information based on their artists
@@ -127,7 +130,7 @@ const Projects = () => (
         </div>
       </div>{" "}
       <div class="col-12">
-        <p> ::::::::::::::::::::::::::::::::: </p>
+        {/* <p> ::::::::::::::::::::::::::::::::: </p> */}
         <p>
           04/2020 | <b id="techstack">#Python | </b>{" "}
           <b>
@@ -140,10 +143,10 @@ const Projects = () => (
           </b>
         </p>
         <div class="row">
-          <div class="col-3">
+          <div class="col-2">
             <img src={AppleFindMy} alt="Oops" class="img-fluid" />
           </div>
-          <div class="col-9">
+          <div class="col-10">
             {" "}
             <p class="toGrey">
               The app performs a simple simulation of{" "}
@@ -175,7 +178,7 @@ const Projects = () => (
         </div>
       </div>{" "}
       <div class="col-12">
-        <p> ::::::::::::::::::::::::::::::::: </p>
+        {/* <p> ::::::::::::::::::::::::::::::::: </p> */}
         <p>
           10/2019 | <b id="techstack">#VueJS</b>
           <b id="techstack">#NodeJS</b>
@@ -192,10 +195,10 @@ const Projects = () => (
           </b>
         </p>
         <div class="row">
-          <div class="col-3">
+          <div class="col-2">
             <img src={Inhaled} alt="Oops" class="img-fluid" />
           </div>
-          <div class="col-9">
+          <div class="col-10">
             <p class="toGrey">
               <a id="redirect" href="https://inhaled-bh19.firebaseapp.com/">
                 InhalED
@@ -227,7 +230,7 @@ const Projects = () => (
         </div>
       </div>{" "}
       <div class="col-12">
-        <p> ::::::::::::::::::::::::::::::::: </p>
+        {/* <p> ::::::::::::::::::::::::::::::::: </p> */}
         <p>
           10/2019 | <b id="techstack">#VueJS</b>
           <b id="techstack">#NodeJS</b>
@@ -244,10 +247,10 @@ const Projects = () => (
           </b>
         </p>
         <div class="row">
-          <div class="col-3">
+          <div class="col-2">
             <img src={HelpAtHand} alt="Oops" class="img-fluid" />
           </div>
-          <div class="col-9">
+          <div class="col-10">
             <p class="toGrey">
               A web application that gives victims of sexual assult a voice. It
               is a platform for anonymous sexual assault case reports and step
@@ -272,7 +275,7 @@ const Projects = () => (
         </div>
       </div>{" "}
       <div class="col-12">
-        <p> ::::::::::::::::::::::::::::::::: </p>
+        {/* <p> ::::::::::::::::::::::::::::::::: </p> */}
         <p>
           10/2019 | <b id="techstack">#Python</b>
           <b id="techstack">#Pandas</b>
@@ -288,10 +291,10 @@ const Projects = () => (
           </b>
         </p>
         <div class="row">
-          <div class="col-3">
+          <div class="col-2">
             <img src={Lyrics} alt="Oops" class="img-fluid" />
           </div>
-          <div class="col-9">
+          <div class="col-10">
             <p class="toGrey">
               Analysis on my favorite indie bands' song lyrics. I Analyzed
               Radiohead, Beach Fossils, Beach House, Diiv, and Wild Nothing's
@@ -321,7 +324,7 @@ const Projects = () => (
           </div>
         </div>
         <div class="col-12">
-          <p> ::::::::::::::::::::::::::::::::: </p>
+          {/* <p> :::::::::::::::::::::::::::::::::::::::::::: </p> */}
           <p>
             10/2019 | <b id="techstack">#VueJS</b>
             <b id="techstack">#NodeJS</b>
@@ -334,10 +337,10 @@ const Projects = () => (
           </p>
 
           <div class="row">
-            <div class="col-3">
+            <div class="col-2">
               <img src={Ameelio} alt="Oops" class="img-fluid" />
             </div>
-            <div class="col-9">
+            <div class="col-10">
               <p class="toGrey">
                 Collaborated with{" "}
                 <a href="https://ameelio.org/" id="redirect">
