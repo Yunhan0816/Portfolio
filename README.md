@@ -7,4 +7,5 @@
 Hannah Huang Website
 </h1>
 Portfolio Website: www.hannahhuang.me<br>
-Development part is on mast branch, and the deployment part is on gh-pages branch.
+Design and Built from scratch, implemented with GatsbyJS, React, and CSS.<br>
+Development part is on mast branch, and the hosted part is on gh-pages branch.
