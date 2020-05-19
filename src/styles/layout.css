@@ -2,7 +2,7 @@
 * {
   font-family: "Overpass", sans-serif;
   background-color: #323244;
-  color: #c7e6cc;
+  color: #fef3d4;
   font-size: 16px;
 }
 .react-icons {
@@ -111,7 +111,7 @@ a {
   /* color: #919993; */
   margin-right: 3%;
   margin-left: 3%;
-  color: rgb(186, 206, 211);
+  color: #fef3d4;
 }
 .navHref {
   color: #81c5fd;
@@ -130,7 +130,7 @@ span {
   padding-bottom: 2%;
   padding-left: 2%;
   padding-right: 2%;
-  border: 8px solid #d4feda;
+  border: 8px solid #fef3d4;
 }
 #project {
   box-sizing: border-box;
@@ -140,7 +140,7 @@ span {
   padding-bottom: 2%;
   padding-left: 2%;
   padding-right: 2%;
-  border: 8px solid #d4feda;
+  border: 8px solid #fef3d4;
 }
 
 #contact {
@@ -151,7 +151,7 @@ span {
   padding-bottom: 2%;
   padding-left: 2%;
   padding-right: 2%;
-  border: 8px solid #d4feda;
+  border: 8px solid #fef3d4;
 }
 
 .resumelinks {
@@ -159,7 +159,7 @@ span {
 }
 
 #myname {
-  background-color: #d4feda;
+  background-color: #fef3d4;
   color: #222028;
   padding-right: 15px;
   padding-left: 15px;

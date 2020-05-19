@@ -17,7 +17,7 @@ const Header = () => (
         {" "}
         <a
           style={{
-            color: " #c7e6cc",
+            color: " #fef3d4",
             fontFamily: "Overpass Mono, sans-serif",
             paddingRight: "10px",
           }}
@@ -28,7 +28,7 @@ const Header = () => (
         |{" "}
         <a
           style={{
-            color: " #c7e6cc",
+            color: " #fef3d4",
             fontFamily: "Overpass Mono, sans-serif",
             paddingLeft: "10px",
             paddingRight: "10px",
@@ -40,7 +40,7 @@ const Header = () => (
         |{" "}
         <a
           style={{
-            color: " #c7e6cc",
+            color: " #fef3d4",
             fontFamily: "Overpass Mono, sans-serif",
             paddingLeft: "10px",
             paddingRight: "10px",
@@ -52,7 +52,7 @@ const Header = () => (
         |{" "}
         <a
           style={{
-            color: " #c7e6cc",
+            color: " #fef3d4",
             fontFamily: "Overpass Mono, sans-serif",
             paddingLeft: "10px",
             paddingRight: "10px",
@@ -64,7 +64,7 @@ const Header = () => (
         |{" "}
         <a
           style={{
-            color: " #c7e6cc",
+            color: " #fef3d4",
             fontFamily: "Overpass Mono, sans-serif",
             paddingLeft: "10px",
             paddingRight: "10px",
@@ -73,6 +73,7 @@ const Header = () => (
         >
           Email
         </a>
+        {/* ||||||||||||||||||||||||||||||||||||||||||||||||||| */}
       </p>
     </div>
   </div>

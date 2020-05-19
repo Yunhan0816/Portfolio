@@ -26,11 +26,10 @@ const Projects = () => (
           :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
         </p> */}
         <p class="subtitle">
-          <b>01/2020 - Present</b> <b id="techstack">| #VueJS</b>
+          <b class="toGrey">04/2020 </b> <b id="techstack">| #VueJS</b>
           <b id="techstack">#NodeJS</b>
           <b id="techstack">#Firebase </b>
-          <b id="techstack">#GoogleMap API</b>
-          <b id="techstack">#HTML/CSS |</b>
+          <b id="techstack">#GoogleMap API |</b>
           <b class="col-2">
             <a id="redirect" href="https://github.com/Yunhan0816/InRainbows">
               GitHub
@@ -87,11 +86,11 @@ const Projects = () => (
       <div class="col-12">
         {/* <p> ::::::::::::::::::::::::::::::::: </p> */}
         <p class="subtitle">
-          <b> 02/2020 - 05/2020</b> <b id="techstack"> | #ExpressJS</b>
+          <b class="toGrey"> 04/2020</b> <b id="techstack"> | #ExpressJS</b>
           <b id="techstack">#Firebase</b>
           <b id="techstack">Spotify OAuth & API</b>
           <b id="techstack">SeatGeek API</b>
-          <b id="techstack">#HTML/CSS | </b>
+          <b id="techstack">#HTML | </b>
           <b>
             <a
               id="redirect"
@@ -133,7 +132,7 @@ const Projects = () => (
       <div class="col-12">
         {/* <p> ::::::::::::::::::::::::::::::::: </p> */}
         <p class="subtitle">
-          04/2020 <b id="techstack">| #Python | </b>{" "}
+          <b class="toGrey">04/2020</b> <b id="techstack">| #Python | </b>{" "}
           <b>
             <a
               id="redirect"
@@ -181,7 +180,7 @@ const Projects = () => (
       <div class="col-12">
         {/* <p> ::::::::::::::::::::::::::::::::: </p> */}
         <p class="subtitle">
-          10/2019 <b id="techstack">| #VueJS</b>
+          <b class="toGrey">10/2019</b> <b id="techstack">| #VueJS</b>
           <b id="techstack">#NodeJS</b>
           <b id="techstack">#Firebase Database | </b>
           <b class="col-2">
@@ -233,7 +232,7 @@ const Projects = () => (
       <div class="col-12">
         {/* <p> ::::::::::::::::::::::::::::::::: </p> */}
         <p class="subtitle">
-          10/2019 <b id="techstack">| #VueJS</b>
+          <b class="toGrey">01/2020</b> <b id="techstack">| #VueJS</b>
           <b id="techstack">#NodeJS</b>
           <b id="techstack">#Firebase Database | </b>
           <b class="col-2">
@@ -277,7 +276,8 @@ const Projects = () => (
         <div class="col-12">
           {/* <p> ::::::::::::::::::::::::::::::::: </p> */}
           <p class="subtitle">
-            05/2020 <b id="techstack">| #React</b>
+            <b class="toGrey">05/2020 </b>
+            <b id="techstack">| #React</b>
             <b id="techstack">#GatsbyJS</b>
             <b id="techstack">#CSS |</b>
             <b class="col-2">
@@ -313,7 +313,7 @@ const Projects = () => (
       <div class="col-12">
         {/* <p> ::::::::::::::::::::::::::::::::: </p> */}
         <p class="subtitle">
-          10/2019 <b id="techstack">| #Python</b>
+          <b class="toGrey">10/2019</b> <b id="techstack">| #Python</b>
           <b id="techstack">#Pandas</b>
           <b id="techstack">#NLTK</b>
           <b id="techstack">#Genius API | </b>
@@ -362,7 +362,7 @@ const Projects = () => (
         <div class="col-12">
           {/* <p> :::::::::::::::::::::::::::::::::::::::::::: </p> */}
           <p class="subtitle">
-            10/2019 <b id="techstack">| #VueJS</b>
+            <b class="toGrey">10/2019</b> <b id="techstack">| #VueJS</b>
             <b id="techstack">#NodeJS</b>
             <b id="techstack">#Firebase | </b>
             <b class="col-2">
