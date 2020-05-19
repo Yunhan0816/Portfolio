@@ -25,12 +25,12 @@ const Projects = () => (
           {" "}
           :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
         </p> */}
-        <p>
-          <b>01/2020 - Present</b> | <b id="techstack">#VueJS</b>
+        <p class="subtitle">
+          <b>01/2020 - Present</b> <b id="techstack">| #VueJS</b>
           <b id="techstack">#NodeJS</b>
           <b id="techstack">#Firebase </b>
           <b id="techstack">#GoogleMap API</b>
-          <b id="techstack">#HTML/CSS </b> |
+          <b id="techstack">#HTML/CSS |</b>
           <b class="col-2">
             <a id="redirect" href="https://github.com/Yunhan0816/InRainbows">
               GitHub
@@ -86,7 +86,7 @@ const Projects = () => (
       </div>
       <div class="col-12">
         {/* <p> ::::::::::::::::::::::::::::::::: </p> */}
-        <p>
+        <p class="subtitle">
           <b> 02/2020 - 05/2020</b> <b id="techstack"> | #ExpressJS</b>
           <b id="techstack">#Firebase</b>
           <b id="techstack">Spotify OAuth & API</b>
@@ -132,8 +132,8 @@ const Projects = () => (
       </div>{" "}
       <div class="col-12">
         {/* <p> ::::::::::::::::::::::::::::::::: </p> */}
-        <p>
-          04/2020 | <b id="techstack">#Python | </b>{" "}
+        <p class="subtitle">
+          04/2020 <b id="techstack">| #Python | </b>{" "}
           <b>
             <a
               id="redirect"
@@ -180,8 +180,8 @@ const Projects = () => (
       </div>{" "}
       <div class="col-12">
         {/* <p> ::::::::::::::::::::::::::::::::: </p> */}
-        <p>
-          10/2019 | <b id="techstack">#VueJS</b>
+        <p class="subtitle">
+          10/2019 <b id="techstack">| #VueJS</b>
           <b id="techstack">#NodeJS</b>
           <b id="techstack">#Firebase Database | </b>
           <b class="col-2">
@@ -232,8 +232,8 @@ const Projects = () => (
       </div>{" "}
       <div class="col-12">
         {/* <p> ::::::::::::::::::::::::::::::::: </p> */}
-        <p>
-          10/2019 | <b id="techstack">#VueJS</b>
+        <p class="subtitle">
+          10/2019 <b id="techstack">| #VueJS</b>
           <b id="techstack">#NodeJS</b>
           <b id="techstack">#Firebase Database | </b>
           <b class="col-2">
@@ -267,6 +267,7 @@ const Projects = () => (
         </div>
       </div>
       <br></br>
+      <br></br>
       <div>
         <div class="row">
           <div class="col-12">
@@ -275,8 +276,8 @@ const Projects = () => (
         </div>{" "}
         <div class="col-12">
           {/* <p> ::::::::::::::::::::::::::::::::: </p> */}
-          <p>
-            05/2020 | <b id="techstack">#React</b>
+          <p class="subtitle">
+            05/2020 <b id="techstack">| #React</b>
             <b id="techstack">#GatsbyJS</b>
             <b id="techstack">#CSS |</b>
             <b class="col-2">
@@ -293,8 +294,8 @@ const Projects = () => (
               <p class="toGrey">
                 The personal website that you are currently viewing. <br></br>
                 <br></br>
-                Built and designed from scratch, implemented with React,
-                GatsbyJS and hosted via GitHub Pages.{" "}
+                Built and designed from scratch, implemented with <b>React</b>,
+                <b> GatsbyJS</b>, and hosted via <b>GitHub Pages</b>.{" "}
               </p>
             </div>
           </div>
@@ -311,8 +312,8 @@ const Projects = () => (
       </div>{" "}
       <div class="col-12">
         {/* <p> ::::::::::::::::::::::::::::::::: </p> */}
-        <p>
-          10/2019 | <b id="techstack">#Python</b>
+        <p class="subtitle">
+          10/2019 <b id="techstack">| #Python</b>
           <b id="techstack">#Pandas</b>
           <b id="techstack">#NLTK</b>
           <b id="techstack">#Genius API | </b>
@@ -360,8 +361,8 @@ const Projects = () => (
         </div>
         <div class="col-12">
           {/* <p> :::::::::::::::::::::::::::::::::::::::::::: </p> */}
-          <p>
-            10/2019 | <b id="techstack">#VueJS</b>
+          <p class="subtitle">
+            10/2019 <b id="techstack">| #VueJS</b>
             <b id="techstack">#NodeJS</b>
             <b id="techstack">#Firebase | </b>
             <b class="col-2">

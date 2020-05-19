@@ -5,7 +5,9 @@
   color: #c7e6cc;
   font-size: 16px;
 }
-
+.react-icons {
+  color: white;
+}
 #header {
   padding-top: 2%;
 }
@@ -100,10 +102,15 @@ a {
   font-weight: bold;
   color: #bdecc4;
 }
+
+.subtitle {
+  padding-right: 5%;
+}
 #techstack {
   font-weight: lighter;
   /* color: #919993; */
-  margin-right: 30px;
+  margin-right: 3%;
+  margin-left: 3%;
   color: rgb(186, 206, 211);
 }
 .navHref {

@@ -18,7 +18,7 @@ const AboutMe = () => (
           <br></br>
           My passions include <b>Software Development</b>,{" "}
           <b>organizing hackathons</b>, and indie rock. <br></br>
-          <br></br>I am a <b>Developer Summer Analyst </b>
+          <br></br>I am an incoming <b>Developer Summer Analyst </b>
           at<b style={{ color: "#81c5fd" }}> Barclays</b>.<br></br>
           <br></br>I am the current <b>Director of Technology</b> at{" "}
           <a id="redirect" href="https://boston.techtogether.io/index.html">

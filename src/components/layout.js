@@ -28,8 +28,8 @@ const Layout = ({ children }) => {
       {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
       <div
         style={{
-          marginLeft: "5%",
-          marginRight: "5%",
+          marginLeft: "12%",
+          marginRight: "12%",
           // padding: `0 1.0875rem 1.45rem`,
         }}
       >
