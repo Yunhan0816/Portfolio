@@ -1,4 +1,5 @@
 import React from "react"
+import Download from "../components/resume"
 const Header = () => (
   <div id="header">
     {/* <p> */}
@@ -15,15 +16,8 @@ const Header = () => (
     <div class="row">
       <p style={{ paddingTop: "5px" }}>
         {" "}
-        <a
-          style={{
-            color: " #fef3d4",
-            fontFamily: "Overpass Mono, sans-serif",
-            paddingRight: "10px",
-          }}
-          href="/"
-        >
-          Resume
+        <a>
+          <Download />
         </a>{" "}
         |{" "}
         <a
