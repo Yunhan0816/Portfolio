@@ -19,7 +19,7 @@ const Download = () => {
       }}
       href={data.file.publicURL}
     >
-      Resume{" "}
+      Resume
     </a>
   )
 }
