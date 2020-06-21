@@ -42,10 +42,12 @@ const Projects = () => (
           </b>
         </p>
         <div class="row">
-          <div class="col-2">
+          <div class="col-12 col-md-2">
             <img src={InRainbowsLogo} alt="Oops" class="img-fluid" />
+            <br></br>
+            <br></br>
           </div>
-          <div class="col-10">
+          <div class="col-12 col-md-10">
             <p class="toGrey">
               <a href="https://inrainbows-171a7.web.app/" id="redirect">
                 InRainbows
@@ -102,10 +104,12 @@ const Projects = () => (
         </p>
 
         <div class="row">
-          <div class="col-2">
+          <div class="col-12 col-md-2">
             <img src={ConcertGenerator} alt="Oops" class="img-fluid" />
+            <br></br>
+            <br></br>
           </div>
-          <div class="col-10">
+          <div class="col-12 col-md-10">
             <p class="toGrey">
               A web application for music lovers to get <b>personalized</b> and
               up-to-date concert ticket information based on their artists
@@ -143,10 +147,12 @@ const Projects = () => (
           </b>
         </p>
         <div class="row">
-          <div class="col-2">
+          <div class="col-12 col-md-2">
             <img src={AppleFindMy} alt="Oops" class="img-fluid" />
+            <br></br>
+            <br></br>
           </div>
-          <div class="col-10">
+          <div class="col-12 col-md-10">
             {" "}
             <p class="toGrey">
               The app performs a simple simulation of{" "}
@@ -195,10 +201,11 @@ const Projects = () => (
           </b>
         </p>
         <div class="row">
-          <div class="col-2">
+          <div class="col-12 col-md-2">
             <img src={Inhaled} alt="Oops" class="img-fluid" />
+            <br></br> <br></br>
           </div>
-          <div class="col-10">
+          <div class="col-12 col-md-10">
             <p class="toGrey">
               <a id="redirect" href="https://inhaled-bh19.firebaseapp.com/">
                 InhalED
@@ -247,10 +254,12 @@ const Projects = () => (
           </b>
         </p>
         <div class="row">
-          <div class="col-2">
+          <div class="col-12 col-md-2">
             <img src={HelpAtHand} alt="Oops" class="img-fluid" />
+            <br></br>
+            <br></br>
           </div>
-          <div class="col-10">
+          <div class="col-12 col-md-10">
             <p class="toGrey">
               A web application that gives victims of sexual assult a voice. It
               is a platform for anonymous sexual assault case reports and step
@@ -287,10 +296,12 @@ const Projects = () => (
             </b>
           </p>
           <div class="row">
-            <div class="col-2">
+            <div class="col-12 col-md-2">
               <img src={PersonalWebsite} alt="Oops" class="img-fluid" />
+              <br></br>
+              <br></br>
             </div>
-            <div class="col-10">
+            <div class="col-12 col-md-10">
               <p class="toGrey">
                 The personal website that you are currently viewing. <br></br>
                 <br></br>
@@ -327,10 +338,12 @@ const Projects = () => (
           </b>
         </p>
         <div class="row">
-          <div class="col-2">
+          <div class="col-12 col-md-2">
             <img src={Lyrics} alt="Oops" class="img-fluid" />
+            <br></br>
+            <br></br>
           </div>
-          <div class="col-10">
+          <div class="col-12 col-md-10">
             <p class="toGrey">
               Analysis on my favorite indie bands' song lyrics. I Analyzed
               Radiohead, Beach Fossils, Beach House, Diiv, and Wild Nothing's
@@ -373,10 +386,12 @@ const Projects = () => (
           </p>
 
           <div class="row">
-            <div class="col-2">
+            <div class="col-12 col-md-2">
               <img src={Ameelio} alt="Oops" class="img-fluid" />
+              <br></br>
+              <br></br>
             </div>
-            <div class="col-10">
+            <div class="col-12 col-md-10">
               <p class="toGrey">
                 Collaborated with{" "}
                 <a href="https://ameelio.org/" id="redirect">
