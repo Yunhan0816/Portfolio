@@ -155,7 +155,7 @@ const Projects = () => (
           <div class="col-12 col-md-10">
             {" "}
             <p class="toGrey">
-              The app performs a simple simulation of{" "}
+              The app performs a simulation of{" "}
               <a
                 id="redirect"
                 href="https://support.apple.com/guide/security/end-to-end-encryption-sec60fd770ba/1/web/1"

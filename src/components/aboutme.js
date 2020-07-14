@@ -22,7 +22,7 @@ const AboutMe = () => (
           <br></br>
           My passions include <b>Software Development</b>,{" "}
           <b>organizing hackathons</b>, and indie rock. <br></br>
-          <br></br>I am an incoming <b>Developer Summer Analyst </b>
+          <br></br>I am a <b>Developer Summer Analyst </b>
           at{" "}
           <a
             // style={{ color: "#81c5fd" }}
