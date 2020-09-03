@@ -11,7 +11,7 @@ class IndexPage extends React.Component {
   render() {
     return (
       <Layout>
-        {/* <SEO title="Hannah Huang" /> */}
+        <SEO />
 
         <br></br>
         <div class="row">
