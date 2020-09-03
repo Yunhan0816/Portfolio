@@ -1,11 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Portfolio`,
+    title: `Hannah Huang`,
     description: `Hannah Huang is a 4th year Computer Science student at Boston University with a passion for Software Development.`,
     author: `Hannah Huang`,
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -13,6 +12,7 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
